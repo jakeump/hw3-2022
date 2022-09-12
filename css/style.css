@@ -52,25 +52,12 @@ div{
     border-width: 3px;
 }
 
-.red > div{
-    border-bottom: 2px;
-    border-left: 5px;
-}
-
-.blue > div{
-    border-top: 2px;
-    border-right: 5px;
-}
-
-.yellow > div{
-    border-bottom: 2px;
-    border-left: 5px;
-}
-
 .introduction{
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
+    border-bottom: 2px;
+    border-left: 5px;
 }
 
 .red{
@@ -83,12 +70,16 @@ div{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
+    border-top: 2px;
+    border-right: 5px;
 }
 
 .yellow{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
 }
 
 .green{
